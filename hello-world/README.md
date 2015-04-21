@@ -8,5 +8,5 @@ To start the service, you have to invoke `io.inkstand.examples.helloworld.HelloW
 
 The services starts on port 22448 (so the port must not be bound already) and is reachable via [http://localhost:22448/hello/world](http://localhost:22448/hello/world)
 
-The example only defines a REST Service on Path / in `HelloWorldService` and activates the `PublicService`
+The example only defines a REST Service on Path / in `io.inkstand.examples.helloworld.HelloWorldService` and activates the `PublicService`
 stereotype in the `beans.xml`.
