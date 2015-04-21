@@ -1,8 +1,8 @@
 # Hello World
 This example is basically the same as the minimal HelloWorld but provides some basic configurations
-- http port and listenaddress
+- http port and listenaddress (see `helloWorld.properties`)
 - custom launcher
-(see `helloWorld.properties`)
+
 
 To start the service, you have to invoke `io.inkstand.examples.helloworld.HelloWorld.main()`
 
