@@ -21,7 +21,7 @@
 
 	<groupId>io.inkstand</groupId>
 	<artifactId>inkstand-examples</artifactId>
-	<version>0.0.1-SNAPSHOT</version><modules><module>hello-world</module><module>minimal-hello-world</module></modules>
+	<version>0.0.1-SNAPSHOT</version><modules><module>hello-world</module><module>minimal-hello-world</module><module>jcr-inmemory-example</module></modules>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>pom</packaging>
 

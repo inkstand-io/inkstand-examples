@@ -1,0 +1,20 @@
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd" version="1.1"
+	bean-discovery-mode="all">
+	<!--
+	 The beans.xml denotes the package as a BDA (bean deployment archive) that will be scanned
+	 for CDI artifacts, like injection points, beans, producers, etc.
+	-->
+
+	<alternatives>
+		<!--
+		 	The PublicService stereotype describes a http service that has no protected resources.
+		 	It activates the default Undertow-based web container.
+		-->
+		<stereotype>io.inkstand.PublicService</stereotype>
+		<!--
+		 	Activate the TransientRepository stereotype
+		-->
+		<stereotype>io.inkstand.jcr.TransientRepository</stereotype>
+	</alternatives>
+</beans>
